@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    background-size: 100% 100%;
+    background-position: 0px 0px;
+    background-image: radial-gradient(75% 75% at 50% 50%, #A100FFFF 0%, #71C4FFFF 100%);
+}
+
+.content h2 {
+    font-family: 'Pacifico', cursive;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #A100FFFF;
+}
+
+.content h2 span {
+    font-size: 40px;
+    color: #71C4FFFF;
+}
+
+.content {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 80px 40px;
+    background-color: #fff;
+    margin-bottom: 30px;
+}
+
+input {
+    height: 50px;
+    width: 300px;
+    padding-left: 10px;
+    /* border-radius: 30px; */
+    border: 1.5px solid rgb(0, 0, 0);
+}
+
+button {
+    padding: 17px 20px;
+    font-family: sans-serif;
+    /* border-radius: 30px; */
+    border: 1px solid #fff;
+    color: #fff;
+    font-weight: bold;
+    background-image: linear-gradient(90deg, #A100FFFF 0%, #71C4FFFF 100%);
+}
+
+button:hover{
+    transition: 0.6s ease-in-out;
+    background-image: linear-gradient(90deg, #71C4FFFF 0%, #A100FFFF 100%);
+}
+
+@media screen and (max-width:576px) {
+    .content{
+        padding: 30px 10px;
+    }
+}
